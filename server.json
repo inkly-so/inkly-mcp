@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "so.inkly/inkly",
+  "title": "Inkly",
+  "description": "Send, track, and manage documents for eSignature: templates, drafts, signing status, signed PDFs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.inkly.so/e-signature-mcp",
+  "repository": {
+    "url": "https://github.com/inkly-so/inkly-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.inkly.so/brand/inkly-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.inkly.so/mcp"
+    }
+  ]
+}

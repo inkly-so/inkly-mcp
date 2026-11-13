@@ -1,0 +1,12 @@
+{
+  "identifier": "inkly",
+  "name": "Inkly",
+  "version": "1.0.0",
+  "description": "Send, track, and manage documents for eSignature. Find templates, prepare drafts, check who has signed, send reminders, and get signed PDFs.",
+  "author": "Inkly",
+  "authorUrl": "https://www.inkly.so",
+  "homepage": "https://www.inkly.so/e-signature-mcp",
+  "icon": "https://www.inkly.so/brand/inkly-icon-512.png",
+  "cloudEndpoint": "https://www.inkly.so/mcp",
+  "tags": ["esignature", "electronic-signature", "document-signing", "contracts", "pdf", "productivity"]
+}

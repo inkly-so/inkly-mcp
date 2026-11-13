@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inkly",
+  "version": "1.0.0",
+  "description": "Send, track, and manage documents for eSignature with Inkly's hosted MCP server, with the inkly skill bundled.",
+  "author": {
+    "name": "Inkly",
+    "email": "hello@inkly.so",
+    "url": "https://www.inkly.so"
+  },
+  "homepage": "https://www.inkly.so/e-signature-mcp",
+  "repository": "https://github.com/inkly-so/inkly-mcp",
+  "license": "MIT",
+  "keywords": [
+    "esignature",
+    "electronic signature",
+    "document signing",
+    "contracts",
+    "templates",
+    "pdf",
+    "mcp"
+  ]
+}
