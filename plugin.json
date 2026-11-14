@@ -19,14 +19,5 @@
     "templates",
     "pdf",
     "mcp"
-  ],
-  "extensions": {
-    "com.nousresearch.hermes": {
-      "servers": {
-        "inkly": {
-          "trust": "untrusted"
-        }
-      }
-    }
-  }
+  ]
 }

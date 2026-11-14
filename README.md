@@ -99,24 +99,7 @@ Codex opens your browser to approve the connection.
 hermes plugins install inkly --enable
 ```
 
-This installs the Inkly plugin from the [Hermes plugin catalog](https://hermes-agent.nousresearch.com/docs/plugins/inkly): the MCP server plus the [Inkly skill](skills/inkly/SKILL.md). The first time Hermes uses Inkly, your browser opens Inkly's sign-in. Choose a workspace and an access level, and click **Allow**.
-
-What to know before you install:
-
-- **Network.** Every tool call goes to `www.inkly.so` and acts on your Inkly account, at the access level you approved. The tools come from Inkly's server, so they can change without a new plugin version.
-- **Sign-in.** Hermes connects through [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) `0.1.49`, run with `npx` (needs Node.js 20.18.1 or later). On first use it opens your browser and a local callback port, and stores its OAuth tokens in `~/.mcp-auth`. No keys go in your Hermes config.
-- **Approvals.** The plugin marks the server untrusted, so Hermes asks before every tool that isn't read-only, such as sending a document, and refuses those tools in unattended runs.
-- **No code.** The plugin is configuration only: no scripts, binaries, telemetry, or self-updater.
-
-On a headless machine, skip the plugin and add the server to `~/.hermes/config.yaml` with a Pro or Teams [API key](https://www.inkly.so/docs/api/reference/authentication):
-
-```yaml
-mcp_servers:
-  inkly:
-    url: https://www.inkly.so/mcp
-    headers:
-      Authorization: Bearer ink_live_...
-```
+The first time Hermes uses Inkly, your browser opens Inkly's sign-in. Approve the connection there. The plugin lives in [`hermes/`](hermes/README.md), which explains what it installs and how to connect a headless machine with an API key.
 
 ### n8n and your own agents
 
@@ -185,7 +168,8 @@ Building an integration rather than chatting? Use the [Inkly eSignature API](htt
 | File | Used by |
 | --- | --- |
 | `server.json` | The official MCP Registry |
-| `plugin.json`, `mcp.json` | Agent Plugins clients, such as the Hermes plugin catalog |
+| `plugin.json`, `mcp.json` | Agent Plugins clients |
+| `hermes/` | The Hermes Agent plugin catalog |
 | `skills/inkly/SKILL.md` | Agent Skills clients, skills.sh, and ClawHub |
 | `lhm.plugin.json` | LobeHub Market |
 
