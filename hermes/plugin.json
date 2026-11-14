@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "inkly",
   "version": "1.0.0",
-  "description": "Send, track, and manage documents for eSignature from Hermes with Inkly's hosted MCP server, with the inkly skill bundled.",
+  "description": "Inkly's hosted MCP server for eSignature and document signing. Send, track, and manage documents from Hermes, with the inkly skill bundled.",
   "author": {
     "name": "Inkly",
     "email": "hello@inkly.so",
