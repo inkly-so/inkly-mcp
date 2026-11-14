@@ -1,10 +1,12 @@
 # Inkly for Hermes Agent
 
-Send, track, and manage documents for eSignature from [Hermes Agent](https://hermes-agent.nousresearch.com) with [Inkly](https://www.inkly.so).
+Run your eSignature and document signing workflows directly from [Hermes Agent](https://hermes-agent.nousresearch.com).
 
 [Website](https://www.inkly.so) · [Sign up](https://www.inkly.so/auth?tab=signup) · [Inkly MCP server](https://www.inkly.so/e-signature-mcp) · [MCP docs](https://www.inkly.so/docs/api/ai-agents) · [Pricing](https://www.inkly.so/pricing)
 
-[Inkly](https://www.inkly.so) is legally binding [eSignature software](https://www.inkly.so) for professionals and small businesses. This plugin connects Hermes to Inkly's hosted MCP server and bundles a skill that teaches the agent to use it safely:
+[Inkly](https://www.inkly.so) lets you send, track, and manage documents for [eSignature](https://www.inkly.so). Send a contract from your saved templates, turn a PDF into a signable document, see which agreements are still waiting to be signed and send a reminder, or get the signed PDF of any completed document. Built for anyone who needs fast, simple document signing, whether it's contracts, forms, or approvals.
+
+This plugin connects Hermes to Inkly's hosted [MCP server](https://www.inkly.so/e-signature-mcp) and bundles a skill that teaches the agent to use it safely:
 
 - **Find templates** and see which roles and fields each one needs.
 - **Prepare documents** from a template or a PDF, ready for you to check and send.
