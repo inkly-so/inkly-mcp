@@ -1,11 +1,11 @@
 ---
 name: inkly
-description: Send documents for legally binding eSignature with Inkly, track who has signed, send reminders, and download signed PDFs. Use when the user wants to send a contract or form for signature from an Inkly template or a PDF, check signing status, or get a completed document. Works through Inkly's MCP tools when connected, or the Inkly REST API with an API key.
+description: "Automate your eSignature and document signing workflows. Inkly lets you send, track, and manage documents for eSignature: send from a template or a PDF, see who still has to sign, and get the signed PDF. Use when the user wants to send a contract or form for signature from an Inkly template or a PDF, check signing status, or get a completed document. Works through Inkly's MCP tools when connected, or the Inkly REST API with an API key."
 license: MIT
 compatibility: Needs internet access. The REST API path needs curl and an INKLY_API_KEY from a Pro or Teams workspace.
 metadata:
   author: Inkly
-  version: "1.0.0"
+  version: "1.0.1"
   homepage: https://www.inkly.so
   openclaw:
     requires:
