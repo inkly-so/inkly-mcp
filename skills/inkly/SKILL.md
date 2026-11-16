@@ -5,7 +5,7 @@ license: MIT
 compatibility: Needs internet access. The REST API path needs curl and an INKLY_API_KEY from a Pro or Teams workspace.
 metadata:
   author: Inkly
-  version: "1.0.1"
+  version: "1.0.2"
   homepage: https://www.inkly.so
   openclaw:
     requires:
@@ -21,7 +21,9 @@ metadata:
 
 # Inkly
 
-Inkly is eSignature software. A person keeps reusable **templates** (a document with signer roles and fields) and sends **documents** for signature. Signers get an email, sign in their browser, and everyone gets the signed PDF with a Certificate of Completion.
+Automate your eSignature and document signing workflows with Inkly. Send a contract from your saved templates, turn a PDF into a signable document, see which agreements are still waiting to be signed, or get the signed PDF of any completed document.
+
+In Inkly, a **template** is a reusable document with signer roles and fields, and a **document** is one you send for signature. Signers get an email, sign in their browser, and everyone gets the signed PDF with a Certificate of Completion.
 
 ## Pick a path
 
