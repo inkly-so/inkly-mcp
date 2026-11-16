@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "inkly": {
+      "type": "http",
+      "url": "https://www.inkly.so/mcp"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "inkly",
+  "displayName": "Inkly",
+  "version": "1.0.0",
+  "description": "Automate your eSignature and document signing workflows.",
+  "author": {
+    "name": "Inkly",
+    "email": "hello@inkly.so",
+    "url": "https://www.inkly.so"
+  },
+  "homepage": "https://www.inkly.so/e-signature-mcp",
+  "repository": "https://github.com/inkly-so/inkly-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "inkly",
+    "esignature",
+    "electronic signature",
+    "document signing",
+    "contracts",
+    "templates",
+    "pdf",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": ["inkly", "esignature", "contracts", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.cursor-plugin/mcp.json"
+}
