@@ -2,7 +2,7 @@
   "identifier": "inkly",
   "name": "Inkly",
   "version": "1.0.0",
-  "description": "Send, track, and manage documents for eSignature. Find templates, prepare drafts, check who has signed, send reminders, and get signed PDFs.",
+  "description": "Send, track, and manage documents for eSignature. Find templates, prepare drafts, check who has signed, and get signed PDFs.",
   "author": "Inkly",
   "authorUrl": "https://www.inkly.so",
   "homepage": "https://www.inkly.so/e-signature-mcp",
